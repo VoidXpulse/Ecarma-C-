@@ -3,10 +3,22 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
-    std::cout << "Hello World!\n";
-}
+	double celsius, fahrenheit;
+
+	cout << "How many degrees Celsius do you want to convert to degrees Fahrenheit?";
+
+	cin >> celsius;
+
+	fahrenheit = (1.8 * celsius) + 32.0;
+
+	cout << celsius << " degrees Celsius is " << fahrenheit << " degrees Fahrenheit.";
+
+	cout << "-";
+};
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
