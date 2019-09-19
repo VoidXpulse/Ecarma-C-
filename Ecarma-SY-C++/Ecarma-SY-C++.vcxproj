@@ -151,7 +151,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ecarma-SY-C++.cpp" />
+    <ClCompile Include="Celsius-Fahrenheit.cpp" />
+    <ClCompile Include="PizzaMile.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
