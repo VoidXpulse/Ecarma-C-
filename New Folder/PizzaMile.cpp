@@ -5,7 +5,7 @@ using namespace std;
 //9/22/2019
 //Data Basics Lab 1
 //Extra: Also prints out the number of kilometers you would need run, and the amount of calories you have consumed
-int notmain()
+int main()
 {
 
 	int slices, calories;
